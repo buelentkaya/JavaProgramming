@@ -1,4 +1,4 @@
-package day38_InheritanceMethodOverriding;
+package day38_InheritanceMethodOverriding.carTask;
 
 public class Car {
     public String brand, model;
