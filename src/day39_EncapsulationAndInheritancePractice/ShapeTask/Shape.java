@@ -1,4 +1,4 @@
-package day39_EncapsulationAndInheritancePractice;
+package day39_EncapsulationAndInheritancePractice.ShapeTask;
 
 public class Shape {
     private String name;
