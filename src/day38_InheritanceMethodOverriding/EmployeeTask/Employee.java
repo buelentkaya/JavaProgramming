@@ -19,7 +19,19 @@ public class Employee {
       this.companyName = companyName;
    }
 
+public void work(){
+   System.out.println(name+" from this "+companyName+ " is working!");
+}
 
-
-
+   public String toString() {
+      return "Employee{" +
+              "name='" + name + '\'' +
+              ", age=" + age +
+              ", gender=" + gender +
+              ", id=" + id +
+              ", jobTitle='" + jobTitle + '\'' +
+              ", salary=" + salary +
+              ", companyName='" + companyName + '\'' +
+              '}';
+   }
 }
