@@ -11,5 +11,8 @@ public class Zoo {
 
         dog.drink();
 
+        Dog dog1=new Dog("Max","Husky",'F',"White","Large",2);
+        System.out.println(dog1);
+
     }
 }
