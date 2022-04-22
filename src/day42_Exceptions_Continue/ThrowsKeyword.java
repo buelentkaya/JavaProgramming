@@ -1,6 +1,6 @@
 package day42_Exceptions_Continue;
 
-public class ThrowKeyword {
+public class ThrowsKeyword {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("______________test 1___________________");
         System.out.println("Hello");
