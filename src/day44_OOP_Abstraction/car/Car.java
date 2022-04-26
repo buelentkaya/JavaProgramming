@@ -63,7 +63,7 @@ public abstract class Car {
     public abstract void drive();
 
     public void stop(){
-        System.out.println(getMake()+getModel()+"stops!");
+        System.out.println(getMake()+getModel()+" stops!");
     }
 
     @Override

@@ -1,4 +1,4 @@
-package day44_OOP_Abstraction;
+package day44_OOP_Abstraction.animalTask;
 
 public final class Eagle extends Animal implements Flyable,WildAnimal{
     public Eagle(String name, String breed, char gender, int age, String size, String color) {
