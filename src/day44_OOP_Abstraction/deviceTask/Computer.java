@@ -15,6 +15,7 @@ public abstract class Computer extends Device{
     public void turnOff() {
 
     }
-
+public abstract void outOfOrder();
+    //{System.out.println(getBrand()+" "+getModel()+" is out of order,it does not work any more.");}
 
 }
