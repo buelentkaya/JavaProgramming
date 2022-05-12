@@ -8,8 +8,8 @@ public class Circle extends Shape{
         pi=3.14;
     }
 
-    public Circle(String name, double radius) {
-        super(name);
+    public Circle( double radius) {
+        super("Circle");
         setRadius(radius);
     }
 

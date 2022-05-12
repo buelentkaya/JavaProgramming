@@ -1,11 +1,10 @@
 package day44_OOP_Abstraction.deviceTask;
 
-public class AndroidApps implements downloadable{
+public interface AndroidApps extends downloadable{
 
-  public String AppStoreName, OS;
+    String AppStoreName= "Google Play", OS="Android";
 
-    @Override
-    public void downloadApp() {
-        System.out.println(AppStoreName+" is downloding a new app.");
+
+
     }
-}
+

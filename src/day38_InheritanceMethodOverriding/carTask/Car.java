@@ -1,6 +1,6 @@
 package day38_InheritanceMethodOverriding.carTask;
 
-public abstract class Car {
+public class Car {
     public String brand, model;
     public int year;
     public double price;

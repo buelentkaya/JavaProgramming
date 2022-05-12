@@ -14,7 +14,7 @@ public interface PropertiesOfInterface {
     */
 
     /*
-    public void method1(){       instance method yooook!!!!
+    public void method1(){
         System.out.println("Instance method");
     }
      */
@@ -23,7 +23,7 @@ public interface PropertiesOfInterface {
         System.out.println("Static method");
     }
 
-    void method3();// abstract method
+    void method3();
 
     default void method4(){
         System.out.println("Default method");

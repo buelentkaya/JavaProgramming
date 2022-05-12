@@ -1,6 +1,9 @@
 package day36_InheritenceOOP.animalTask;
 
-public class Cat extends Animal{//Cat is an Animal
+public class Cat extends Animal{
+    public Cat(String max, String husky, char m, int i, String small, String white) {
+        super(max, husky, m, i, small, white);
+    }//Cat is an Animal
     public void meow(){
         System.out.println(name+" is meowing");
     }
