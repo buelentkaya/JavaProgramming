@@ -2,6 +2,7 @@ package day35_OOP_Encapsulation.encapsulation;
 
 public class EmployeeObjects {
     public static void main(String[] args) {
+
         Employee p1=new Employee("Tatiana",'F',45,70000);
         System.out.println(p1);//Employee{name='Tatiana', gender=F, age=45, salary=70000.0}
 
