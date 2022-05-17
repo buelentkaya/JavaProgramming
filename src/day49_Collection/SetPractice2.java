@@ -77,6 +77,24 @@ public class SetPractice2 {
 
         System.out.println("----------------------------------------------------------");
 
+        Set<String> names=new LinkedHashSet<>();
+        names.addAll(Arrays.asList("Bülent","Burcin","Omer","Bülent","Omer","Kerem","Kerem","Tarik"));
+        System.out.println("names = " + names);//names = [Bülent, Burcin, Omer, Kerem, Tarik]
+
+        System.out.println(names.toArray(new String[0])[2]);//Omer ilk strirng arrayinin 2.ci elemani omer
+        System.out.println(new ArrayList<>(names).get(2));//Omer bu sekilde de index e ulasabiliriz yoksa set te index yok
+
+
+        for(String each:names){
+            System.out.println("each = " + each);
+            //each = Bülent
+            //each = Burcin
+            //each = Omer
+            //each = Kerem
+            //each = Tarik
+        }
+
+
 
     }
 }
