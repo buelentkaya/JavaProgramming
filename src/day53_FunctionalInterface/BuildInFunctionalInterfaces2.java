@@ -66,7 +66,7 @@ public class BuildInFunctionalInterfaces2 {
 
         printMultipleTimes.accept("Java", 5);
 
-        System.out.println("---------------------------------------------");
+        System.out.println("----------------scrumTeam1-----------------------------");
 
         Map<String, String> scrumTeam1 = new LinkedHashMap<>();
         scrumTeam1.put("Abdulhamid","SM");
@@ -83,8 +83,13 @@ public class BuildInFunctionalInterfaces2 {
         }
          */
 
-        scrumTeam1.forEach(  (k, v) -> System.out.println(k+" : "+v) );
-
+        //scrumTeam1.forEach(  (k, v) -> System.out.println(k+" : "+v) );
+scrumTeam1.forEach((k,v)-> System.out.println(k+" "+v));
+//Abdulhamid SM
+//Nikita Developer
+//Alina Developer
+//Mert PO
+//Lee SDET
 
         System.out.println("---------------------------------------------");
 
@@ -101,7 +106,6 @@ public class BuildInFunctionalInterfaces2 {
             List<Integer> result = new ArrayList<>();
 
             for (int each : x) result.add(each);
-
             for( int each: y) result.add(each);
 
             return result;
